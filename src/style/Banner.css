@@ -1,0 +1,77 @@
+.home {
+    width: 100%;
+    background-image: url('https://www.soc.tas.edu.au/wp-content/uploads/DSC9121-Enhanced-NR.jpg');
+    height: 1500px;
+    background-size: 110% 110%;
+    background-position: center center;
+    animation: shrink 2s infinite ; /* Adjust the duration here */
+  }
+  @keyframes shrink {
+    0% {
+      background-size: 110% 110%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
+.icon-bar {
+    position: fixed;
+    top: 20%;
+    margin-left: 40px;
+    background-color: transparent;
+  }
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 26px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 60px;
+  }
+  
+
+.facebook {
+  background-color: transparent;
+    color: white;
+  }
+.twitter {
+  background-color: transparent;
+    color: white;
+  }
+.instagram {
+  background-color: transparent;
+    color: white;
+  }
+  .facebook:hover {
+    background-color: transparent;
+      color: rgb(208, 1, 1);
+    }
+  .twitter:hover {
+    background-color: transparent;
+    color: rgb(208, 1, 1);
+    }
+  .instagram:hover {
+    background-color: transparent;
+    color: rgb(208, 1, 1);
+    }
+.line-image {
+    width: 2px; /* Adjust the width as needed */
+    height: 115px; /* Adjust the height as needed */
+    margin-left: 130px;
+  }
+.bottomline-image{
+    width: 2px; /* Adjust the width as needed */
+    height: 115px;
+    color: rgb(94, 96, 98);
+    margin-top: 40px;
+    margin-left: 130px;
+  }
+.copyright{
+  color: aliceblue;
+  font-size: 32px;
+  margin-top: 60px;
+  margin-left: 90px;
+  
+}
+  
+  

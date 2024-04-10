@@ -1,0 +1,61 @@
+.watch-container {
+    
+  background-image: url('https://c1.wallpaperflare.com/preview/137/407/673/homework-time-management-purpose.jpg');
+  background-size: cover;
+  background-position: center; 
+  height: 1500px;
+  animation: shrink 2s infinite ; /* Adjust the duration here */
+}
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+.heading{
+  margin-top: 0px;
+  padding: 0;
+   font-size: 220px;
+   
+   width:680px ;
+   text-align: justify;
+   }
+.dot{
+       color: red;
+     }
+     .sub{
+      color: rgb(143, 145, 147);
+     }
+    
+     .watch-content{
+      width:680px;
+      margin-top: 890px;
+      margin-left: 300px;
+     }
+
+   
+.project-button {
+  margin-top: 90px; 
+  display: inline-block;
+  padding: 20px 90px;
+  
+  background-color: red; 
+}
+
+.project-button-text {
+  color: white;
+  font-family: Calibri;
+  font-size: 2rem; 
+  text-transform: uppercase; 
+  cursor: pointer;
+  outline: none;
+  border: none; 
+}
+
+
+.project-button:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  border: 2px rgb(248, 247, 247) solid;
+}

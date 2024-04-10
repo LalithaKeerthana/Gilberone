@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=*&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: white;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.page{
+  background-color: #000;
+}
+
+
+
+
+
+
+
+

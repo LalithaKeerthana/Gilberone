@@ -1,0 +1,59 @@
+/* TestimonialCarousel.css */
+
+.testimonial-carousel {
+    width: 50%; /* Adjust the width as needed */
+    margin-top:300px; 
+    margin-left:200px; /* Center the carousel horizontally */
+  }
+  
+  .testimonial {
+  /* Background color for the testimonial */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Add some padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  }
+  
+  .testimonial-text {
+    font-size: 30px; /* Increase the font size */
+    width: 650px;
+    text-align: justify;
+    color: #989595;
+  }
+  
+  .testimonial-name {
+    margin-top: 100px; /* Add some space between text and name */
+   font-size: 40px;
+
+  }
+  
+  .controls {
+    margin-top: 250px; /* Add some space between testimonial and controls */
+    font-size: 56px;
+   
+    
+
+  }
+  .onebtn, .twobtn{
+    
+    color: #f0e6e6;
+    width: 88px;
+    border: 2px white solid;
+    color: #f0e6e6;
+     /* Increase the font size of the buttons */
+    cursor: pointer;
+   
+    margin: 0 20px;
+
+  }
+ 
+  
+  
+.onebtn:hover, .twobtn:hover {
+    background-color: #ba1a1a;
+    color: #ffffff;
+  }
+  
+  
+  button:focus{
+    outline: none;
+  }

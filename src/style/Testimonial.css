@@ -1,0 +1,37 @@
+/* Testimonial.css */
+
+.testimonial-container {
+  background-image: url('https://media.istockphoto.com/id/675715346/photo/top-view-of-pitch-black-office-desk-with-computer-and-supplies.webp?b=1&s=170667a&w=0&k=20&c=v1mQgLrB88dopsrLVZsqs1OMFO-ozMzLLLAq_6-yV5w=');
+  background-size: cover;
+  background-position: center; 
+  height: 1500px; /* Set height to fill the viewport */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right side of the container */
+   /* Align items to the top */
+  padding: 20px; /* Add padding */
+  animation: shrink 2s infinite; 
+}
+
+.quote-icon {
+  height: 300px; /* Set the height of the quote icon */
+  width: auto; /* Auto width */
+  
+}
+
+.text{
+ 
+  /* Add some padding */
+  border-radius: 10px; /* Rounded corners */
+  margin-right: 20px; 
+  margin-top: 60%;/* Add some space between the quote icon and text */
+  width: 1000px;
+  
+  
+}
+
+.text {
+  font-size: 95px; /* Increase the font size */
+  color: #f1f0f0; /* Set text color */
+}
+
+/* Adjust other styles as needed */

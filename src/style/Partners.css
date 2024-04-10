@@ -1,0 +1,43 @@
+.partners {
+    
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+ 
+  
+  .partner-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; /* Reduced margin */
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  
+  .partner {
+    margin: 0 auto;
+  }
+  
+  .partner img {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(50%) sepia(50%) saturate(0%) hue-rotate(180deg); /* Grey and dull */
+    transition: filter 0.3s ease; /* Add transition effect */
+   margin-bottom: 150px;
+  }
+  
+  .partner img:hover {
+    filter: none;
+  }
+  .p{
+    font-size: 90px;
+   
+    margin-left: 250px;
+    margin-bottom: 150px;
+  }

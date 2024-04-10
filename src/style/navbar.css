@@ -1,0 +1,192 @@
+/* navbar.css */
+
+.navbar {
+  position:fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:transparent;
+  color: white;
+  height: 250px;
+   /* Reduced padding */
+  font-family: Arial, sans-serif; /* Changed font */
+font-size: 70px;
+
+}
+
+
+.navbar .left {
+  display: flex;
+margin-left: 150px;
+ 
+}
+ 
+
+.red-dot {
+  color: red;
+  font-size: 80px;
+}
+.right{
+  margin-left: 1950px;
+ 
+}
+
+.navbar .right .menu-icon {
+  font-size: 50px; /* Reduced font size */
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -800px; /* Reduced width of sidebar */
+  width: 800px; /* Reduced width of sidebar */
+  height:100%; /* Reduced height */
+  background-color: #222;
+  overflow-y: auto;
+  transition: right 0.3s ease;
+  font-size: 12px; /* Reduced font size */
+}
+
+.sidebar.open {
+  right: 0; /* Displayed when open */
+}
+
+.close-button {
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  width: 60px; /* Set the width */
+  line-height: 60px; /* Center the text vertically */
+  text-align: center; /* Center the text horizontally */
+  font-family: Arial, sans-serif; /* Change the font family if needed */
+  margin-left: 190px;
+}
+
+.close-button {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.close-button:hover {
+  transform: rotateY(360deg);
+}
+
+.sidebar-header,
+.sidebar-footer {
+  margin-top: 40px;
+  margin-left: 120px;
+  padding: 21px; /* Reduced padding */
+  background-color: #222;
+  font-size: 30px; /* Reduced font size */
+}
+
+.sidebar-header {
+  padding: 20px 20px; /* Add padding */
+  background-color: #222;
+  font-size: 25px; /* Reduced font size */
+  display: flex;
+  margin-top: 140px;
+  /* Align items neatly */
+  align-items: center; /* Align items vertically */
+}
+
+.sidebar-header span {
+  margin: 10px; /* Add spacing between items */
+}
+
+.sidebar-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0; /* Increased padding */
+  background-color: #222;
+  text-align: left; /* Center the social icons horizontally */
+}
+
+.social-icons {
+  margin-bottom: 120px; /* Increased margin */
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px; /* Increased margin */
+  padding: 10px; /* Increased padding */
+  font-size: 60px; /* Increased icon size */
+  color: white; /* Set default icon color */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.social-icon:hover {
+  opacity: 0.7; /* Adjust opacity on hover if desired */
+  color: red; /* Change icon color to red on hover */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 70px;
+  height: 450px; /* Adjusted based on header and footer height */
+  overflow-y: auto;
+  margin-left: 150px;
+  position: relative; /* Set position relative */
+}
+
+/* Scrollbar styling */
+.sidebar ul::-webkit-scrollbar {
+  width: 11px;
+}
+
+.sidebar ul::-webkit-scrollbar-track {
+  background-color: #222;
+}
+
+.sidebar ul::-webkit-scrollbar-thumb {
+  background-color: #c23131;
+  border-radius: 4px;
+  position: absolute;
+
+  margin-right: 10px; /* Adjust to move the scrollbar closer to the list items */
+}
+
+.sidebar ul::-webkit-scrollbar-thumb:hover {
+  background-color: #d92424;
+}
+
+.sidebar ul li {
+  padding: 21px 42px; /* Reduced padding */
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.language:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.sidebar ul li a:hover {
+  color: #c23131;
+}
+
+.sidebar ul li {
+  padding: 21px 42px; /* Reduced padding */
+  position: relative; /* Make position relative for pseudo-elements */
+}
+
+.sidebar ul li:hover::before {
+  content: "\2022"; /* Unicode for bullet point */
+  color: red; /* Red color */
+  position: absolute;
+  left: -5px; /* Adjust as needed */
+  padding-left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 100px;
+}

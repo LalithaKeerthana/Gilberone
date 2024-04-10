@@ -1,0 +1,81 @@
+.education-container {
+    background-color: black;
+    color: white;
+    padding: 270px;
+    
+  }
+  
+  .education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  #p{
+    font-size: 94px;
+
+
+  }
+  .data{
+    font-size:30px;
+    letter-spacing: 0.5px;
+    color: rgb(174, 174, 174);
+    text-align: justify;
+
+  }
+  img{
+    margin-bottom: 20px;
+    
+  }
+  .Year{
+    
+    
+    font-size:30px;
+    
+    
+
+    color: rgb(174, 174, 174);
+  }
+  p{
+    font-size:55px;
+    color: aliceblue;
+  }
+  
+  .download-button {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 17px 60px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: darkred;
+    border: 1px solid black;
+  }
+  
+  .matrix-table {
+    border-collapse: collapse;
+   
+  }
+  
+  .matrix-table table {
+    width: 100%;
+  }
+  
+  .matrix-table td {
+    border-bottom: 0.5px solid white; /* Horizontal border */
+    
+        height: 400px; /* Adjust cell height */
+        width: 400px; /* Adjust cell width */
+      
+      
+  }
+  .matrix-table tr:last-child td {
+    border-bottom: none; /* Remove border for the last row */
+  }
+
+
+  
